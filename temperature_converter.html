@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css">
+    <title>TEMPERATURE CONVERTER BY PARTH</title>
+</head>
+<body>
+    <div class="container">
+        <form id="calcTemp" onsubmit="calculateTemp(); return false">
+        <h1>Temperature Converter</h1>
+        <div class="temp">
+           <h3>Degree</h3>
+           <h3>Type</h3>
+        </div>
+         
+        <div class="input">
+                   <input type="number"  id="num" value="0">
+                   <select name="type" id="type" style="width: 180px; border-radius: 8px; background: transparent; border: 1px solid black; padding:10px;text-align: center;color: aliceblue;font-size:15px;font-weight: bold;font-variant:small-caps;font-stretch: expanded;cursor: pointer; box-shadow:5px 8px 18px #127a8fe0;
+                   backdrop-filter: blur(10px);">
+                    <option value="c">Celcius</option>
+                    <option value="f">Fahrenheit</option>
+                   </select>
+        </div>
+        <div class="result">
+            <span id="res" style="margin:10px 10px 10px"></span>
+        </div>
+        
+            <button type="submit" id="submit"> convert </button>
+        
+        </form>
+    </div>
+    <script src="temp.js" > </script>
+</body>
+</html>

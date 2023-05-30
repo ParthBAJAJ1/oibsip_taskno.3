@@ -1,0 +1,86 @@
+body{
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background:linear-gradient(0deg ,#0f8397e1 0% ,rgb(1, 1, 71)35%,rgba(0,212,255,1)100%);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+   
+
+}
+.container{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    border: 2px solid #040a5bf3;
+    box-shadow: 8px 10px 25px #3181dcf3 ;
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter:blur(20px);
+    }
+    .temp{
+        
+    
+        
+        margin: 2px;
+       /* border: 2px solid black;*/
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       justify-content: space-between;
+       padding-left: 250px;
+       padding-right: 300px;
+       padding-bottom: 0px;
+       margin-right: 5px;
+     text-shadow: 5px 8px 18px rgba(227, 225, 221, 0.922);
+       font-weight: bolder;
+          font-size: large;
+    }
+    
+    .input{
+       
+       /* border: 2px solid black;*/
+        margin:5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 10%;
+        padding:4px;
+        margin-top: 10px;
+        
+    }
+    input{
+        width:200px;
+        background: transparent;
+       border :2px solid #30020aee;
+       border-radius:20px;
+        padding: 2px;
+        padding-left: 10px;
+        box-shadow:5px 8px 18px #127a8fe0;
+        backdrop-filter: blur(10px);
+   color:bisque;
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+        cursor: pointer;
+    }
+
+   #result{
+    font-size: 27px;
+    font-weight: bold;
+    color:cornsilk;
+   }
+   #submit{
+    margin-top: 20px;
+    width: 200px;
+            height: 50px; border-radius: 20px; background: transparent; border: 2px solid black; font-size:38px;font-weight: bolder; color: antiquewhite;padding: 1px 2px 2px;
+   }
